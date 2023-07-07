@@ -1,0 +1,45 @@
+.text-m {
+    color: #181818;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.text-r {
+    color: #FD6E0A;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding-right: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.btn1 {
+    color: var(--white-color, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+    padding: 15px 35px;
+}
