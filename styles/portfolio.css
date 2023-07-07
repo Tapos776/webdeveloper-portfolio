@@ -15,6 +15,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:0 200px;
 }
 
 nav>ul {
@@ -42,4 +43,22 @@ nav ul li a {
     background: #FD6E0A;
     border: 0px;
     padding: 15px 35px;
+}
+.header{
+    background-color:  #FFF8F3;;
+}
+.banner{
+    padding: 30px 30px 30px 50px;
+    display: flex;
+    align-items: center;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    border: 0px;
+    padding: 15px 35px;
+    color: var(--white-color, #FFF);
+
+}
+.banner .profile-pic{
+    width: 500px;
 }
